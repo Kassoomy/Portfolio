@@ -269,7 +269,7 @@ Now we can further our check with the reverse search and find the *"Fake"* permu
 ```python
 reversedComparison(posiblePs, tempPerm[3], n)
 ```
-[array([1, 2, 3, 1]),
+>[array([1, 2, 3, 1]),
  array([2, 3, 1, 2]),
  array([3, 1, 2, 1]),
  array([1, 2, 1, 3]),
