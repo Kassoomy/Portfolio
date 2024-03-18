@@ -82,7 +82,7 @@ Next we'll use the function for the same scenario of our example with 3 elements
 
 ```python
 n = 3   # Number of elements
-posiblePs = np.array(list(permutations(range(1, n+1))))       # Create the array of posible permutations
+posiblePs = np.array(list(permutations(range(1, n+1))))       # Create the array of possible permutations
 tempPerm = superPermutN(n, posiblePs[0], posiblePs, True, 0)  # the result of the algorithm starting with the fist posible permutation `123`
 
 lbn = math.factorial(n) + math.factorial(n - 1) + math.factorial(n - 2) + (n - 3) # The theoretical lower bound of the 
@@ -117,9 +117,9 @@ print(f`Full Answer: {tempPerm[3]}`)
 >Full Answer: [1 2 3 1 2 1 3 2 1]
 >
 
-As we swee we get the same steps and result as our example. 
+As shown, we get the same steps and result as our initial example. 
 
-Now in the following step we'll take a look at the results for 4 elements when we start with all of the posible permutations ordered by lenght of the answer result:
+Now in the following step we'll take a look at the results for 4 elements when we start with all of the possible permutations ordered by length of the answer result:
 
 ```python
 n = 4
@@ -174,7 +174,7 @@ dfTemp
 |22|\[4 3 1 2\]|35|24|\[4 3 1 2 4 3 1 4 2 3 1 4 3 2 1 4 3 2 4 1 3 2 4 1 2 3 4 1 2 1 3 4 2 1 3\]|
 |23|\[4 3 2 1\]|35|24|\[4 3 2 1 4 3 2 4 1 3 2 4 3 1 2 4 3 1 4 2 3 1 4 1 2 3 4 1 2 1 3 4 2 1 3\]|
 
-We have 8 starting permutations that give us the optimal answer for $N=4$ but gf course we'll need a way to make sure our solution is one of the valid solutions to the problem, for this we create a function that'll check if each of the posible permutations was used, we go even one step further toget the number of times each permutation is used, since an optimal solution should use each of the posible permutations only once.
+We have 8 starting permutations that give us the optimal answer for $N=4$ but gf course we'll need a way to make sure our solution is one of the valid solutions to the problem, for this we create a function that'll check if each of the possible permutations was used, we go even one step further to get the number of times each permutation is used, since an optimal solution should use each of the possible permutations only once.
 
 ```python
 def megaArrayComparison(baseArray, comparisonArray, numberOfElements):
