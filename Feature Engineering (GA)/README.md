@@ -7,13 +7,47 @@ For the base of this excercise, we'll use the following [Kaggle Job Data](https:
 we'll use the following variables as the base for the decision tree as to have an easier to plot result:
 
 - work_year
-- experience_level
-- job_category
-- salary_currencY
-- employment_type
-- company_size
-- company_location
+  
+- experience_level (One Hot encoded)
+  -  Entry-level
+  -  Executive
+  -  Senior
+  -  Mid-level
+    
+- job_category (One Hot encoded)
+  - Job-Data-Science-and-Research
+  - Job-BI-and-Visualization
+  - Job-Data-Architecture-and-Modeling
+  - Job-Data-Analysis
+  - Job-Data-Engineering
+  - Job-Leadership-and-Management
+  - Job-Data-Quality-and-Operations
+  - Job-Machine-Learning-and-AI
+  - Job-Cloud-and-Database
+  - Job-Data-Management-and-Strategy
 
-And use the  `work_setting` as the independent variable, with just **2** values ***Remote*** and ***In-person***
+- salary_currency (Changed for either USD [1] or not USD [0])
+  
+- employment_type  (One Hot encoded)
+  - Freelance
+  - Full-time
+  - Contract
+  - Part-time
+
+- company_size  (One Hot encoded)
+  - Size-S
+  - Size-M
+  - Size-L
+
+- company_location (One Hot encoded)
+  - Company-Locate-USA
+  - Company-Locate-UK
+  - Company-Locate-Canada
+  - Company-Locate-Other
+
+
+And use the  `work_setting` as the independent variable, with just **2** values ***Remote (1)*** and ***In-person (0)***
+
+
 
 
