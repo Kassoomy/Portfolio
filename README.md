@@ -1,6 +1,6 @@
 # :briefcase: Portfolio
 
-Hi I'm **Juan David Gallego** a M.Sc. Data Scientist with experiences in the business and finance world, here's a quick portfolio of some projects to show case my work. 
+Hi I'm **Juan David Gallego** a M.S. Data Scientist with experiences in the business and finance world, here's a quick portfolio of some projects to show case my work. 
 
 ## Contents
 - [Dice Roll (Reinforced Learning)](https://github.com/Kassoomy/Portfolio/tree/main/Dice%20Roll%20(Reinforced%20Learning)): an application of reinforced learning to a simple game of dice, where the objective of the model is to learn the optimal strategy, which we know theoretically beforehand; it's also a good example for explaining and playing around with the different component of a general reinforced learning algorithm.
