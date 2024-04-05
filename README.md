@@ -1,4 +1,4 @@
-# Portfolio
+# :briefcase: Portfolio
 
 Hi I'm **Juan David Gallego** a M.Sc. Data Scientist with experiences in the business and finance world, here's a quick portfolio of some projects to show case my work. 
 
