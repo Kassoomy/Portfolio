@@ -18,4 +18,4 @@ Hi I'm **Juan David Gallego** a M.S. Data Scientist with experiences in the busi
 
 
 
-If you have any feedback or want to have a chat about work opportunities or collaborations, send me an email at juangalle-0018@hotmail.com
+If you have any feedback or want to have a chat about work opportunities or collaborations, send me an email at juangalle0018@gmail.com
